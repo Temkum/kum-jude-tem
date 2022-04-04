@@ -12,9 +12,9 @@ function App() {
     <>
       <Header />
       <Nav />
+      <Technologies />
       <Services />
       <Portfolio />
-      <Technologies />
       <Testimonies />
       <Footer />
     </>
