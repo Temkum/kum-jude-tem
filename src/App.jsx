@@ -1,5 +1,5 @@
 import React from "react";
-import Landing from "./components/landing/Landing";
+import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -10,7 +10,7 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
-      <Landing />
+      <Header />
       <Nav />
       <Services />
       <Portfolio />

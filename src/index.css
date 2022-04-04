@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Mono:ital,wght@0,200;0,400;0,600;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,200&display=swap');
 
@@ -15,6 +15,8 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, .6);
+  --color-accent-sec: #55c57a;
+  --color-accent-dark: #4799629a;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -45,8 +47,12 @@ h1,
 h2,
 h3,
 h4,
-h5 {
-  font-weight: 600;
+h5,
+h6 {
+  color: var(--color-white);
+  font-family: "Righteous", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -77,6 +83,18 @@ a:hover {
   color: var(--color-white);
 }
 
+button {
+  font-family: "Montserrat", sans-serif;
+  padding: 1.7rem 3rem;
+  font-weight: 600;
+  border: 2px solid var(--color-accent-dark);
+  background: transparent;
+  margin: 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
 .btn {
   width: max-content;
   display: inline-block;
@@ -86,6 +104,29 @@ a:hover {
   border: 1px solid var(--color-primary);
   border-radius: .4rem;
   transition: var(--transition);
+}
+
+.btn-lg {
+  padding: 1.5rem 1.5rem;
+  /* font-size: 1.25rem; */
+  border-radius: 0.25rem;
+  color: var(--color-white);
+  width: 85%;
+}
+
+.btn-lg:hover {
+  background: var(--color-accent-dark);
+}
+
+.btn-full {
+  padding: 1.5rem 1.5rem;
+  background-color: var(--color-accent-sec);
+  background: var(--color-accent-dark);
+}
+
+.btn-full:hover {
+  color: var(--color-white);
+  background-color: #548675;
 }
 
 .btn:hover {
