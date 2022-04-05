@@ -1,13 +1,22 @@
 import React from "react";
-import './technologies.css'
-import {FiletypeHtml, FiletypeCss, FiletypeJsx, FiletypeJs, Bootstrap, FiletypePhp, BookmarkCheck} from 'react-bootstrap-icons'
+import "./technologies.css";
+import {
+  FiletypeHtml,
+  FiletypeCss,
+  FiletypeJsx,
+  FiletypeJs,
+  Bootstrap,
+  FiletypePhp,
+  BookmarkCheck,
+} from "react-bootstrap-icons";
 
 function Technologies() {
-  return <section id="technologies">
-    <h5>What skills I have</h5>
-    <h1>Technologies</h1>
-    
-     <div className="container experience__container">
+  return (
+    <section id="technologies">
+      <h5>What skills I have</h5>
+      <h1>Technologies</h1>
+
+      <div className="container experience__container">
           <div className="experience_frontend">
             <h3>Frontend</h3>
           <div className="exp__content">
@@ -43,7 +52,7 @@ function Technologies() {
             <FiletypeJs className="exp__icon" />
               <div>
               <h4>Javascript</h4>
-              <small className='text-light'>Experienced</small>
+              <small className='text-light'>Intermediate</small>
             </div>
           </article>
             </div>
@@ -89,9 +98,10 @@ function Technologies() {
                   </article>
                 </div>
             </div>
-        </div>
+      </div>
     
-  </section>;
+    </section>
+  );
 }
 
 export default Technologies;

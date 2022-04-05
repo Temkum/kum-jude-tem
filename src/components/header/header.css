@@ -125,6 +125,7 @@ header {
 
   .landing__text p {
     font-size: .9rem;
+    width: 100%;
   }
 
   .cta-social-icons a {
@@ -155,7 +156,12 @@ header {
   }
 
   .cta-social-icons a {
-    font-size: .9rem;
+    font-size: 1.3rem;
+  }
+
+  .cta-social-icons a {
+    margin: 1rem .7rem .2rem;
+    color: var(--color-white);
   }
 
 }

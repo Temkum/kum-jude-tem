@@ -77,3 +77,20 @@ section>h1 {
     padding: 2rem 1rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .experience__container {
+    justify-content: space-evenly;
+    padding: 1rem 0;
+  }
+
+  .exp__content {
+    column-gap: 3rem;
+  }
+
+  .exp__icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+    font-size: .8rem;
+  }
+}

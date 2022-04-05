@@ -23,18 +23,18 @@ function Nav() {
         <House />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <ColumnsGap />
-      </a>
-      <a
         href="#technologies"
         onClick={() => setActiveNav("#technologies")}
         className={activeNav === "#technologies" ? "active" : ""}
       >
         <CodeSquare />
+      </a>
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
+      >
+        <ColumnsGap />
       </a>
       <a
         href="#portfolio"
