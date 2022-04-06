@@ -35,12 +35,22 @@ const data = [
     git: "https://github.com",
     demo: "https:softech.netlify.app",
   },
+  {
+    id: 4,
+    image: IMG,
+    title: "Point of Sale",
+    description:
+      "Credibly fabricate stand-alone information rather than high standards in bandwidth. Rapidiously evisculate inexpensive ROI vis-a-vis turnkey content. Progressively.",
+    tech: ["html/css", "laravel", "javascript", "bootstrap", "php"],
+    git: "https://github.com",
+    demo: "https:softech.netlify.app",
+  },
 ];
 
 const projectItem = data.map(
   ({ id, image, title, description, tech, git, demo }) => {
     return (
-      <div className="project-card" key={id}>
+      <article className="project-card" key={id}>
         <div className="card">
           <div className="card-header">
             <a href="">
@@ -50,10 +60,14 @@ const projectItem = data.map(
           <div className="card-body">
             <div className="techs">
               {tech.map((tech) => {
-                return <span className="tag">{tech}</span>;
+                return (
+                  <span className="tag" key={tech.toString()}>
+                    {tech}
+                  </span>
+                );
               })}
             </div>
-            <h3>{title}</h3>
+            <h4>{title}</h4>
             <p>{description} </p>
             <div className="project-links">
               <a href={demo} target="_blank" className="btn">
@@ -65,7 +79,7 @@ const projectItem = data.map(
             </div>
           </div>
         </div>
-      </div>
+      </article>
     );
   }
 );
@@ -75,12 +89,13 @@ function Portfolio() {
     <section id="projects">
       <h5>Recent Work</h5>
       <h1>Projects</h1>
-      <div className="btn-nav">
-        <button className="btn">Websites</button>
-        <button className="btn">Web Apps</button>
+      <div className="container projects-container">
+        <div className="btn-nav">
+          <button className="btn">Websites</button>
+          <button className="btn">Web Apps</button>
+        </div>
+        <div className="project-cards">{projectItem}</div>
       </div>
-
-      <div className="project-cards">{projectItem}</div>
     </section>
   );
 }
