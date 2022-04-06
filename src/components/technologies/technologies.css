@@ -82,6 +82,8 @@ section>h1 {
   .experience__container {
     justify-content: space-evenly;
     padding: 1rem 0;
+    width: 90%;
+    padding: 1rem 0rem;
   }
 
   .exp__content {
