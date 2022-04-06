@@ -36,7 +36,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url(./assets/); */
 }
 
 /****** GENERAL STYLES ********/
@@ -80,6 +79,10 @@ a {
   color: var(--color-primary);
   transition: var(--transition);
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 a:hover {

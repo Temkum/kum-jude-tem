@@ -6,12 +6,14 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Technologies from "./components/technologies/Technologies";
 import Testimonies from "./components/testimonies/Testimonies";
 import Contact from "./components/contact/Contact";
+import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <>
       <Header />
+      <About />
       <Nav />
       <Technologies />
       <Services />
