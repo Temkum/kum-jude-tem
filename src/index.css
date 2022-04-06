@@ -23,6 +23,8 @@
   --container-width-sm: 90%;
 
   --transition: all 400 ease;
+
+  --border-transparent: 1px solid transparent;
 }
 
 html {
@@ -77,6 +79,7 @@ section>h2 {
 a {
   color: var(--color-primary);
   transition: var(--transition);
+  text-decoration: none;
 }
 
 a:hover {
