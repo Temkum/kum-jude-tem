@@ -7,30 +7,33 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h5>Get in touch</h5>
-      <h1>Contact me</h1>
+      {/* <h5>Get in touch</h5> */}
+      <h2>
+        Awesome! <br />
+        Now, it's your turn to say Hi.
+      </h2>
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
-            <Envelope className="contact__icon" />
-            <h4>Email</h4>
-            <h5>judekum14@mail.com</h5>
-            <a href="mailto:judekum14@gmail.com" target="_blank">
+          <a href="mailto:judekum14@gmail.com" target="_blank">
+            <article className="contact__option">
+              <Envelope className="contact__icon" />
+              {/* <h4>Email</h4> */}
+              <h5>judekum14@mail.com</h5>
               Send a message
-            </a>
-          </article>
-          <article className="contact__option">
-            <Whatsapp className="contact__icon" />
-            <h4>Whatsapp</h4>
-            <h5>+237675827455</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone+237675827455"
-              target="_blank"
-            >
+            </article>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone+237675827455"
+            target="_blank"
+          >
+            <article className="contact__option">
+              <Whatsapp className="contact__icon" />
+              {/* <h4>Whatsapp</h4> */}
+              <h5>+237 675 827 455</h5>
               Send a message
-            </a>
-          </article>
+            </article>
+          </a>
         </div>
         <form ref={form}>
           <input type="text" name="name" placeholder="Your name" required />
