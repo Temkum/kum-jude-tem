@@ -21,16 +21,16 @@ function About() {
             <article className="about__card">
               <AwardFill className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ years working</small>
+              <small>3+ years</small>
             </article>
           </div>
 
           <p>
             I love building new features, squashing bugs and continuously
             improving quality. I have a knack for teamwork with people from
-            different backgrounds and skills. I'm friendly, in love with web
-            performance, modular reusable code libraries, and got the zeal to
-            join an awesome development team.
+            different backgrounds and skills. <br />
+            I'm friendly, in love with web performance, modular reusable code
+            libraries, and got the zeal to join an awesome development team.
           </p>
 
           <a href="#contact" className="btn btn-primary">
