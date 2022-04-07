@@ -70,6 +70,10 @@ section>h5 {
   color: var(--color-light);
 }
 
+section h5 {
+  text-transform: uppercase;
+}
+
 section>h2 {
   color: var(--color-primary);
   margin-bottom: 3rem;

@@ -6,7 +6,7 @@ import ME from "../../assets/img/Jude.png";
 function About() {
   return (
     <section id="about">
-      <h5>Get to know me</h5>
+      <h5>Get to Know Me</h5>
       <h2>About me</h2>
 
       <div className="container about__container">
