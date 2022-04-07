@@ -6,3 +6,4 @@
 ## Deployment
 
 - To deploy using netlify `npm install netlify-cli -g` then run `netlify build`
+- install emailjs `npm i emailjs-com --save`

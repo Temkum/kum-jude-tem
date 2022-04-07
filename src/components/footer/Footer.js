@@ -44,7 +44,7 @@ function Footer() {
           <Linkedin />
         </a>
         <a
-          href="https://api.whatsapp.com/send?phone+237675827455"
+          href="https://api.whatsapp.com/send?phone=+237675827455"
           target="_blank"
         >
           <Whatsapp />

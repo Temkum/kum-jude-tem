@@ -38,7 +38,7 @@ function Contact() {
             </article>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=00237675827455"
+            href="https://api.whatsapp.com/send?phone=+237675827455"
             target="_blank"
           >
             <article className="contact__option">
