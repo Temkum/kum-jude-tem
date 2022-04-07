@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import heroMan from "../../assets/img/heroMan.png";
-import { Github, Linkedin, Twitter } from "react-bootstrap-icons";
+import { Github, Linkedin, Whatsapp} from "react-bootstrap-icons";
 
 const header = () => {
   return (
@@ -28,8 +28,8 @@ const header = () => {
                 <Linkedin/>
               </a>
               <a title="Find Kum Jude on Twitter" aria-label="Find Kum on Twitter" className="landing-icons icon twitter"
-                  href="https://twitter.com/KumJude?s=09" target="_blank" rel="noopener noreferrer">
-                  <Twitter/>
+                  href="https://api.whatsapp.com/send?phone=00237675827455" target="_blank" rel="noopener noreferrer">
+                  <Whatsapp/>
               </a>
             <a aria-label="See Kum's Code on Github" title="See Kum's Code on Github" className="landing-icons icon px-4"
                 href="https://github.com/Temkum" target="_blank" rel="noopener noreferrer">
