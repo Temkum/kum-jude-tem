@@ -1,12 +1,12 @@
 import React from "react";
 import "./nav.css";
 import {
-  CodeSquare,
-  Folder,
   House,
-  ColumnsGap,
   Envelope,
   Person,
+  Collection,
+  SuitHeart,
+  BracesAsterisk,
 } from "react-bootstrap-icons";
 import { useState } from "react";
 
@@ -27,21 +27,21 @@ function Nav() {
         onClick={() => setActiveNav("#technologies")}
         className={activeNav === "#technologies" ? "active" : ""}
       >
-        <CodeSquare />
+        <Collection />
       </a>
       <a
         href="#services"
         onClick={() => setActiveNav("#services")}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <ColumnsGap />
+        <SuitHeart />
       </a>
       <a
         href="#projects"
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
       >
-        <Folder />
+        <BracesAsterisk />
       </a>
       <a
         href="#contact"
