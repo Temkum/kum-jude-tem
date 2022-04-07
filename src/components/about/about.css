@@ -143,6 +143,7 @@
 
   .about__cards {
     margin: 0;
+    padding: 1rem;
   }
 
   .about__content p {

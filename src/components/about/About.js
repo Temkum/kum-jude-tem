@@ -26,10 +26,11 @@ function About() {
           </div>
 
           <p>
-            I love building new features, squashing bugs and continuously
-            improving quality. I have a knack for teamwork with people from
-            different backgrounds and skills. <br />
-            I'm friendly, in love with web performance, modular reusable code
+            I was born and raised in Buea, Cameroon. I'm a freelance
+            captioner/translator turned developer. I have always had a knack for
+            tech and everything web development. <br /> <br />I love building
+            new features, squashing bugs and continuously improving quality. I'm
+            friendly, in love with web performance, modular reusable code
             libraries, and got the zeal to join an awesome development team.
           </p>
 
