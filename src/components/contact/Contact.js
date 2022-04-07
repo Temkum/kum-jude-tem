@@ -7,7 +7,7 @@ function Contact() {
 
   return (
     <section id="contact">
-      {/* <h5>Get in touch</h5> */}
+      <h5>Get in Touch</h5>
       <h2>
         Awesome! <br />
         Now, it's your turn to say Hi.
