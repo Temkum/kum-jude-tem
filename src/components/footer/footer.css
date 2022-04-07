@@ -69,3 +69,18 @@ footer a {
     margin-bottom: 2.6rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer__socials {
+    margin-bottom: 2.6rem;
+  }
+
+  .footer__socials a {
+    margin-right: 2rem;
+  }
+}
