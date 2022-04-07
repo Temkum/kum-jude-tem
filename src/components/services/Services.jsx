@@ -62,7 +62,7 @@ function Services() {
             </li>
             <li>
               <Check className="service__icon" />
-              <p>I have knack for problem solving and diligently pushing through challenges, so let me help you solve that problem.</p>
+              <p>I have a knack for problem solving and diligently pushing through challenges, so let me help you solve that problem.</p>
             </li>
           </ul>
         </article>

@@ -45,7 +45,8 @@
 
 .service__icon {
   color: var(--color-primary);
-  margin-top: 2rem;
+  padding-top: 1rem;
+  display: flex;
   font-size: 1.5rem;
 }
 
@@ -80,6 +81,28 @@
 @media screen and (max-width: 600px) {
   .services__container {
     padding: 0 1rem;
+  }
+
+  .service {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .services__container {
+    padding: 0 1rem;
+  }
+
+  .service__list {
+    padding: 1rem;
+  }
+
+  .service__list li {
+    margin-bottom: 1rem;
+  }
+
+  .service__icon {
+    display: none;
   }
 
   .service {
