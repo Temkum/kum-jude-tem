@@ -9,7 +9,7 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
-  width: 70vw;
+  width: 70%;
   padding-top: 6rem;
 }
 
@@ -18,7 +18,7 @@ header {
 }
 
 .landing__text h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1;
   margin-bottom: 1.5rem;
   text-align: left;
@@ -26,6 +26,7 @@ header {
 
 .landing__text p {
   margin-bottom: 1.5rem;
+  margin-left: 0rem;
   text-align: left;
   width: 60%;
 }
@@ -67,17 +68,27 @@ header {
 
 /******** MEDIA QUERIES *********/
 @media screen and (max-width: 1024px) {
-  header {
-    height: 100vh;
-  }
-
   .header__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-content: center;
-    width: 100vw;
-    padding-top: 3rem;
+    width: 85%;
+    padding-top: 8rem;
     padding-left: 3rem;
+  }
+
+  .landing__text h1 {
+    font-size: 3rem;
+  }
+
+  .landing__text p {
+    width: 80%;
+  }
+
+  .landing__img {
+    align-content: center;
+    display: flex;
+    padding: 4rem 1rem;
   }
 }
 
@@ -108,7 +119,7 @@ header {
   }
 
   .landing__text h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .cta-container {
@@ -143,20 +154,20 @@ header {
   }
 
   .landing__text h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .landing__text p {
-    font-size: .8rem;
+    font-size: .6rem;
     width: 100%;
   }
 
   .cta-btns {
-    width: 55vw;
+    width: 50vw;
   }
 
   .cta-social-icons a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .cta-social-icons a {

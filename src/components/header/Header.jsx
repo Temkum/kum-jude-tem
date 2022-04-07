@@ -15,7 +15,7 @@ const header = () => {
           </p>
          <div className="cta-container">
             <div className="cta-btns">
-              <a href="#contact_me">
+              <a href="#contact">
               <button className="btn-full btn-lg">Hire me</button>
             </a>
             <a href="#projects">
