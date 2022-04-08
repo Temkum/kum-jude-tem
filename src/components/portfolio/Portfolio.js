@@ -1,8 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG from "../../assets/portfolio/p2.png";
-import IMG1 from "../../assets/portfolio/p4.png";
-import IMG2 from "../../assets/portfolio/p6.png";
+import IMG from "../../assets/portfolio/ecommerce.PNG";
+import IMG1 from "../../assets/portfolio/pos.PNG";
+import IMG2 from "../../assets/portfolio/blog.png";
+import IMG3 from "../../assets/portfolio/restau.png";
 
 const data = [
   {
@@ -10,40 +11,38 @@ const data = [
     image: IMG,
     title: "eCommerce website app",
     description:
-      "Assertively visualize premier niches via covalent communities. Efficiently embrace cross-platform services whereas plug-and-play relationships. Appropriately actualize efficient platforms with orthogonal.",
-    tech: ["html/css", "laravel", "javascript", "bootstrap", "php"],
-    git: "https://github.com",
-    demo: "https:softech.netlify.app",
+      "This website is a business which can process orders, accept payments, manage shipping and provide customer service",
+    tech: ["html5/css3", "laravel", "javascript", "bootstrap", "php", "MYSQL"],
+    git: "https://github.com/Temkum/laravel-ecommerce",
+    demo: "#",
   },
   {
     id: 2,
     image: IMG1,
-    title: "Personal portfolio website",
+    title: "Point of Sale",
     description:
-      "Credibly impact strategic customer service without reliable bandwidth. Dramatically impact standards compliant strategic.",
-    tech: ["html/css", "react", "javascript"],
-    git: "https://github.com",
-    demo: "https:softech.netlify.app",
+      "Enables you to manage inventory, sales, purchases, customers, invoices, receiving payments, and more.",
+    tech: ["html/css", "laravel", "javascript", "bootstrap", "php"],
+    git: "https://github.com/Temkum/php_pos",
+    demo: "#",
   },
   {
     id: 3,
     image: IMG2,
-    title: "Point of Sale",
-    description:
-      "Credibly fabricate stand-alone information rather than high standards in bandwidth. Rapidiously evisculate inexpensive ROI vis-a-vis turnkey content. Progressively.",
-    tech: ["html/css", "laravel", "javascript", "bootstrap", "php"],
+    title: "Blog",
+    description: "Web page displaying information or personal journal.",
+    tech: ["html5/css3", "jquery", "javascript"],
     git: "https://github.com",
-    demo: "https:softech.netlify.app",
+    demo: "https://bloggerr.netlify.app",
   },
   {
     id: 4,
-    image: IMG,
-    title: "Point of Sale",
-    description:
-      "Credibly fabricate stand-alone information rather than high standards in bandwidth. Rapidiously evisculate inexpensive ROI vis-a-vis turnkey content. Progressively.",
-    tech: ["html/css", "laravel", "javascript", "bootstrap", "php"],
+    image: IMG3,
+    title: "Restaurant website",
+    description: "Beautiful design for your restaurant business.",
+    tech: ["html5/css3", "Bootstrap", "javascript"],
     git: "https://github.com",
-    demo: "https:softech.netlify.app",
+    demo: "https://restau1.netlify.app",
   },
 ];
 
