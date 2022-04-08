@@ -42,7 +42,7 @@ function Services() {
           <ul className="service__list">
             <li>
               <Check className="service__icon" />
-              <p>You have an idea and you want to turn it into an online business without any hassle. I'm here to help you setup an eCommerce store that looks amazing and makes you money.</p>
+              <p>You have an idea and you want to turn it into an online business without any hassle, I'm here to help you setup an eCommerce store that looks amazing and makes you money.</p>
             </li>
             <li>
               <Check className="service__icon" />

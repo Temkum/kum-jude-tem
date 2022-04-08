@@ -5,7 +5,7 @@ import { Github, Linkedin, Whatsapp} from "react-bootstrap-icons";
 
 const header = () => {
   return (
-    <header>
+    <header id='welcome'>
       <div className="container header__container">
         <div className="landing__text">
           <h1>Fullstack <br />Web Developer</h1>

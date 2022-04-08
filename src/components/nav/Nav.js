@@ -16,8 +16,8 @@ function Nav() {
   return (
     <nav>
       <a
-        href="#"
-        className={activeNav === "#" ? "active" : ""}
+        href="#welcome"
+        className={activeNav === "#welcome" ? "active" : ""}
         onClick={() => setActiveNav("#")}
       >
         <House />

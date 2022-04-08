@@ -15,8 +15,8 @@ const data = [
   {
     avatar: IMG1,
     name: "Gobi Dasu",
-    review:
-      "Compellingly pontificate bleeding-edge outsourcing without functionalized technologies.",
+    company: "Learning Dollars Talent",
+    review: "Did good work on linters, persisted through struggles.",
   },
   /*  {
     avatar: IMG2,
@@ -64,7 +64,7 @@ function Testimonies() {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ avatar, name, review, company }, index) => {
           return (
             <SwiperSlide className="testimonial" key={index}>
               <div className="client__avatar">

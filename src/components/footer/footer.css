@@ -17,6 +17,7 @@ footer a {
   margin-bottom: 2rem;
   display: inline-block;
   color: var(--color-primary);
+  font-family: "Righteous", sans-serif;
 }
 
 .permalinks {

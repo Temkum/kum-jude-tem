@@ -109,6 +109,16 @@ header {
   }
 }
 
+@media screen and (max-width: 630px) {
+  header {
+    height: 100%;
+  }
+
+  .header__container {
+    padding-top: 2rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
