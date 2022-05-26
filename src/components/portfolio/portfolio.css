@@ -141,6 +141,14 @@ p {
   .tag {
     font-size: .5rem;
   }
+
+  .project-links {
+    display: flex;
+  }
+
+  .project-links a {
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
