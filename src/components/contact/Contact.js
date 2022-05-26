@@ -21,7 +21,7 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h5 className="txt">Get in Touch</h5>
+      <h6 className="txt">Get in touch</h6>
       <h2>
         Awesome! <br />
         Now, it's your turn to say hi.
@@ -29,7 +29,7 @@ function Contact() {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <a href="mailto:judekum14@gmail.com" target="_blank">
+          <a href="mailto:judekum14@gmail.com" target="_blank" rel="noreferrer">
             <article className="contact__option">
               <Envelope className="contact__icon" />
               {/* <h4>Email</h4> */}
@@ -40,6 +40,7 @@ function Contact() {
           <a
             href="https://api.whatsapp.com/send?phone=+237675827455"
             target="_blank"
+            rel="noreferrer"
           >
             <article className="contact__option">
               <Whatsapp className="contact__icon" />

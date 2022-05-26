@@ -17,6 +17,7 @@
   --color-light: rgba(255, 255, 255, .6);
   --color-accent-sec: #55c57a;
   --color-accent-dark: #4799629a;
+  --color-60-medium-light: #31323b;
 
   --container-width-lg: 90%;
   --container-width-md: 86%;
@@ -36,6 +37,8 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  transition: all .3ms ease-in-out;
+  /* min-width: fit-content; */
 }
 
 /****** GENERAL STYLES ********/
@@ -64,8 +67,17 @@ section {
   margin-top: 5rem;
 }
 
+section h1 {
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 section>h2,
-section>h5 {
+section>h5,
+section>h6 {
   text-align: center;
   color: var(--color-light);
 }
@@ -105,6 +117,10 @@ button {
   cursor: pointer;
 }
 
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
 .btn {
   width: max-content;
   display: inline-block;
@@ -126,6 +142,7 @@ button {
 
 .btn-lg:hover {
   background: var(--color-accent-dark);
+  transition: all .3ms ease-in-out;
 }
 
 .btn-full {
@@ -137,12 +154,14 @@ button {
 .btn-full:hover {
   color: var(--color-white);
   background-color: #548675;
+  transition: all .3ms ease-in-out;
 }
 
 .btn:hover {
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent;
+  transition: all .3ms ease-in-out;
 }
 
 .btn-primary {
@@ -154,4 +173,10 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width:375px) {
+  body {
+    max-width: fit-content;
+  }
 }

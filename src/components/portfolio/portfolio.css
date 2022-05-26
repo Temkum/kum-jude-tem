@@ -15,10 +15,6 @@
   justify-items: center;
 }
 
-.project-links a {
-  margin: 1rem;
-}
-
 .btn-nav {
   text-align: center;
   padding: 1.2rem 2.3rem;
@@ -37,6 +33,7 @@
   height: 600px;
   border: 1px solid transparent;
   padding: 7px;
+  position: relative;
 }
 
 .card-header img {
@@ -86,6 +83,17 @@ p {
   margin-top: .8rem;
 }
 
+.project-links a {
+  margin-right: 2rem;
+}
+
+.project-links {
+  margin: 1rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 2rem;
+}
+
 @media screen and (max-width: 1024px) {
   .project-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -114,6 +122,13 @@ p {
 
   .tag {
     font-size: .6rem;
+  }
+
+  .project-links {
+    margin: 1rem;
+    position: absolute;
+    left: 1.5rem;
+    bottom: 2rem;
   }
 }
 

@@ -46,6 +46,7 @@ header {
   display: flex;
   flex-direction: column;
   margin-left: -1rem;
+  width: 80%;
 }
 
 /* SOCIAL ICONS */
@@ -68,12 +69,16 @@ header {
 
 /******** MEDIA QUERIES *********/
 @media screen and (max-width: 1024px) {
+  header {
+    height: 100%;
+  }
+
   .header__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-content: center;
     width: 85%;
-    padding-top: 8rem;
+    padding-top: 6rem;
     padding-left: 3rem;
   }
 
@@ -99,13 +104,18 @@ header {
 
   .header__container {
     grid-template-columns: 1fr;
-    width: 80vw;
+    width: 90vw;
     text-align: justify;
     align-content: center;
+    margin-left: 7rem;
   }
 
   .landing__img {
     display: none;
+  }
+
+  .cta-btns {
+    width: 80%;
   }
 }
 
@@ -116,12 +126,13 @@ header {
 
   .header__container {
     padding-top: 2rem;
+    margin-left: 4rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 100%;
   }
 
   .header__container {
@@ -156,7 +167,7 @@ header {
 
 @media screen and (max-width: 425px) {
   header {
-    height: 100vh;
+    height: 100%;
   }
 
   .header__container {

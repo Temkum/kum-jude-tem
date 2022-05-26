@@ -53,7 +53,7 @@ const data = [
 function Testimonies() {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      <h6>Review from clients</h6>
       <h2>Testimonials</h2>
       {/* <div className="container testimonials_container">{review}</div> */}
       <Swiper
@@ -68,7 +68,7 @@ function Testimonies() {
           return (
             <SwiperSlide className="testimonial" key={index}>
               <div className="client__avatar">
-                <img src={avatar} alt="" />
+                <img src={avatar} alt="Author" />
               </div>
               <h5 className="client__name">{name}</h5>
               <small className="client_review">{review}</small>

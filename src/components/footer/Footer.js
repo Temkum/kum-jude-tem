@@ -5,7 +5,7 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#" className="footer_logo">
         Kum Jude Tem
       </a>
 
@@ -34,18 +34,27 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://github.com/Temkum" target="_blank">
+        <a href="https://github.com/Temkum" target="_blank" rel="noreferrer">
           <Github />
         </a>
-        <a href="https://twitter.com/KumJude?s=09" target="_blank">
+        <a
+          href="https://twitter.com/KumJude?s=09"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Twitter />
         </a>
-        <a href="https://www.linkedin.com/in/kum-jude-tem" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/kum-jude-tem"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Linkedin />
         </a>
         <a
           href="https://api.whatsapp.com/send?phone=+237675827455"
           target="_blank"
+          rel="noreferrer"
         >
           <Whatsapp />
         </a>

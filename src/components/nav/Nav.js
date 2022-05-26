@@ -4,9 +4,9 @@ import {
   House,
   Envelope,
   Person,
-  Collection,
   SuitHeart,
-  BracesAsterisk,
+  Layers,
+  Briefcase,
 } from "react-bootstrap-icons";
 import { useState } from "react";
 
@@ -27,7 +27,7 @@ function Nav() {
         onClick={() => setActiveNav("#technologies")}
         className={activeNav === "#technologies" ? "active" : ""}
       >
-        <Collection />
+        <Layers />
       </a>
       <a
         href="#services"
@@ -41,7 +41,7 @@ function Nav() {
         onClick={() => setActiveNav("#projects")}
         className={activeNav === "#projects" ? "active" : ""}
       >
-        <BracesAsterisk />
+        <Briefcase />
       </a>
       <a
         href="#contact"

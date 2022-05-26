@@ -9,12 +9,12 @@ const data = [
   {
     id: 1,
     image: IMG,
-    title: "eCommerce website app",
+    title: "eCommerce website",
     description:
       "This website is a business which can process orders, accept payments, manage shipping and provide customer service",
     tech: ["html5/css3", "laravel", "javascript", "bootstrap", "php", "MYSQL"],
     git: "https://github.com/Temkum/laravel-ecommerce",
-    demo: "#",
+    details: "#!",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const data = [
       "Enables you to manage inventory, sales, purchases, customers, invoices, receiving payments, and more.",
     tech: ["html/css", "laravel", "javascript", "bootstrap", "php"],
     git: "https://github.com/Temkum/php_pos",
-    demo: "#",
+    details: "#!",
   },
   {
     id: 3,
@@ -52,8 +52,8 @@ const projectItem = data.map(
       <article className="project-card" key={id}>
         <div className="card">
           <div className="card-header">
-            <a href="">
-              <img src={image} alt="Portfolio Image" />
+            <a href="#!">
+              <img src={image} alt="Portfolio-img" />
             </a>
           </div>
           <div className="card-body">
@@ -69,10 +69,15 @@ const projectItem = data.map(
             <h4>{title}</h4>
             <p>{description} </p>
             <div className="project-links">
-              <a href={demo} target="_blank" className="btn">
-                Demo
+              <a href={demo} target="_blank" rel="noreferrer" className="btn">
+                {demo ? "Demo" : "Details"}
               </a>
-              <a href={git} className="btn-primary btn" target="_blank">
+              <a
+                href={git}
+                className="btn-primary btn"
+                target="_blank"
+                rel="noreferrer"
+              >
                 View code
               </a>
             </div>
@@ -86,8 +91,8 @@ const projectItem = data.map(
 function Portfolio() {
   return (
     <section id="projects">
-      <h5>Recent Work</h5>
-      <h1>Projects</h1>
+      <h6>Recent work</h6>
+      <h1 className="center-item mb-3">Projects</h1>
       <div className="container projects-container">
         <div className="btn-nav">
           <button className="btn">Websites</button>

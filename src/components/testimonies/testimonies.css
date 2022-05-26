@@ -20,6 +20,10 @@
   margin-bottom: 2rem;
 }
 
+.client__name {
+  text-transform: capitalize;
+}
+
 .client__review {
   color: var(--color-light);
   font-weight: 300;
