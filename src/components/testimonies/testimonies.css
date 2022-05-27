@@ -2,13 +2,17 @@
   width: 60%;
 }
 
+#testimonials .container {
+  width: 50%;
+}
+
 .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 50%;
   margin: 0 auto 1rem;
-  border: .4rem solid var(--color-primary-variant);
+  border: .2rem solid var(--color-primary-variant);
 }
 
 .testimonial {
@@ -22,6 +26,7 @@
 
 .client__name {
   text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 
 .client__review {
@@ -45,6 +50,10 @@
 @media screen and (max-width: 768px) {
   .testimonials_container {
     width: 80%;
+  }
+
+  #testimonials .container {
+    width: 90%;
   }
 }
 

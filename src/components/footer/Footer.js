@@ -5,16 +5,15 @@ import "./footer.css";
 function Footer() {
   return (
     <footer>
-      <a href="#" className="footer_logo">
-        Kum Jude Tem
-      </a>
+      <h2 className="mb-2">
+        <a href="#" className="footer_logo">
+          Kum Jude T. Tem
+        </a>
+      </h2>
 
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
         </li>
         <li>
           <a href="#technologies">Technologies</a>
@@ -26,7 +25,10 @@ function Footer() {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Reviews</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#contact">Connect</a>

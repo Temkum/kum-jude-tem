@@ -43,10 +43,9 @@ footer a {
   background: var(--color-bg);
   color: var(--color-white);
   padding: .8rem;
-  border-radius: .7rem;
+  border-radius: 50%;
   display: flex;
   border: 1px solid transparent;
-
 }
 
 .footer__socials a:hover {
@@ -82,6 +81,6 @@ footer a {
   }
 
   .footer__socials a {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 }

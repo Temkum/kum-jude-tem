@@ -65,6 +65,10 @@ textarea {
   color: var(--color-white);
 }
 
+form .btn {
+  margin-left: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .contact__container {
     grid-template-columns: repeat(2, 1fr);
@@ -98,7 +102,10 @@ textarea {
     margin-bottom: 1rem;
   }
 
-  .btn-primary {
-    width: 90%;
+  form .btn {
+    margin-left: 0;
+    width: 100%;
+    padding: 1.1rem;
   }
+
 }

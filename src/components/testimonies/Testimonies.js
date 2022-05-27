@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonies.css";
 import IMG1 from "../../assets/img/u1.jpg";
-// import IMG2 from "../../assets/img/u2.jpg";
+import IMG2 from "../../assets/img/u2.jpg";
 // import IMG3 from "../../assets/img/u3.jpg";
 // import IMG4 from "../../assets/img/u4.jpg";
 
@@ -18,13 +18,13 @@ const data = [
     company: "Learning Dollars Talent",
     review: "Did good work on linters, persisted through struggles.",
   },
-  /*  {
-    avatar: IMG2,
-    name: "John Paul",
-    review:
-      "Authoritatively scale interdependent mindshare after extensive mindshare. Authoritatively transition corporate scenarios for resource-leveling information. Professionally foster cost effective portals vis-a-vis.",
-  },
   {
+    avatar: IMG2,
+    name: "Matt Hanson",
+    company: "Adava",
+    review: "Did great work.",
+  },
+  /*{
     avatar: IMG3,
     name: "Eric James",
     review:
@@ -53,8 +53,8 @@ const data = [
 function Testimonies() {
   return (
     <section id="testimonials">
-      <h6>Review from clients</h6>
-      <h2>Testimonials</h2>
+      <h6>What clients say</h6>
+      <h2>Reviews</h2>
       {/* <div className="container testimonials_container">{review}</div> */}
       <Swiper
         className="container testimonials__container"
@@ -71,6 +71,12 @@ function Testimonies() {
                 <img src={avatar} alt="Author" />
               </div>
               <h5 className="client__name">{name}</h5>
+              <h6
+                className="client__company"
+                style={{ textTransform: "uppercase" }}
+              >
+                {company}
+              </h6>
               <small className="client_review">{review}</small>
             </SwiperSlide>
           );

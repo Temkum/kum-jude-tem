@@ -21,7 +21,7 @@ function About() {
             <article className="about__card">
               <AwardFill className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ years</small>
+              <small>2+ years</small>
             </article>
           </div>
 
