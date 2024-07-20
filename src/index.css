@@ -22,6 +22,7 @@
   --container-width-lg: 90%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
+  --max-width: 1400px;
 
   --transition: all 400 ease;
 
@@ -38,7 +39,7 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   transition: all .3ms ease-in-out;
-  /* min-width: fit-content; */
+  /* max-width: 2000px; */
 }
 
 /****** GENERAL STYLES ********/

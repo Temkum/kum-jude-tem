@@ -1,6 +1,6 @@
-import React from "react";
-import { Whatsapp, Twitter, Linkedin, Github } from "react-bootstrap-icons";
-import "./footer.css";
+import React from 'react';
+import { Whatsapp, Twitter, Linkedin, Github } from 'react-bootstrap-icons';
+import './footer.css';
 
 function Footer() {
   return (
@@ -25,7 +25,7 @@ function Footer() {
           <a href="#projects">Projects</a>
         </li>
         <li>
-          <a href="#testimonials">Reviews</a>
+          <a href="#reviews">Reviews</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -63,7 +63,12 @@ function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>2022 &copy; All rights reserved</small>
+        <small>
+          {new Date().getFullYear() > 2019
+            ? `2019 - ${new Date().getFullYear()}`
+            : '2019'}{' '}
+          &copy; All rights reserved
+        </small>
       </div>
     </footer>
   );
