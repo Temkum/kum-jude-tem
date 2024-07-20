@@ -76,6 +76,7 @@
     border-radius: 2rem;
     aspect-ratio: 1/1;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    height: fit-content;
   }
 
   .about__image img {
