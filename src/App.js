@@ -1,13 +1,13 @@
-import React from "react";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
-import Services from "./components/services/Services";
-import Portfolio from "./components/portfolio/Portfolio";
-import Techs from "./components/technologies/Techs";
-import Testimonies from "./components/testimonies/Testimonies";
-import Contact from "./components/contact/Contact";
-import About from "./components/about/About";
-import Footer from "./components/footer/Footer";
+import React from 'react';
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
+import Services from './components/services/Services';
+import Portfolio from './components/portfolio/Portfolio';
+import Techs from './components/technologies/Techs';
+import Reviews from './components/reviews/Reviews';
+import Contact from './components/contact/Contact';
+import About from './components/about/About';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Techs />
       <Services />
       <Portfolio />
-      <Testimonies />
+      <Reviews />
       <Contact />
       <About />
       <Footer />

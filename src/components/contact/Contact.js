@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
-import "./contact.css";
-import { Envelope, Whatsapp } from "react-bootstrap-icons";
-import emailjs from "emailjs-com";
+import React, { useRef } from 'react';
+import './contact.css';
+import { Envelope, Whatsapp } from 'react-bootstrap-icons';
+import emailjs from 'emailjs-com';
 
 function Contact() {
   const form = useRef();
@@ -10,10 +10,10 @@ function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_1dil46n",
-      "template_mq03r04",
+      'service_1dil46n',
+      'template_mq03r04',
       form.current,
-      "PRxeq7g9sJRe9-5Ze"
+      'PRxeq7g9sJRe9-5Ze'
     );
 
     e.target.reset();
@@ -38,7 +38,8 @@ function Contact() {
             </article>
           </a>
           <a
-            href="https://api.whatsapp.com/send?phone=+237675827455"
+            // href="https://api.whatsapp.com/send?phone=+237675827455"
+            href="https://wa.me/00237675827455"
             target="_blank"
             rel="noreferrer"
           >
